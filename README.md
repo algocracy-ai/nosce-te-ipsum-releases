@@ -1,2 +1,27 @@
-# nosce-te-ipsum-releases
-Official desktop installers and signed update packages for Career Interview. Binary distribution only; no application source code.
+# 커리어 인터뷰 · 다운로드
+
+커리어 인터뷰 데스크톱 앱의 공식 설치 파일과 서명된 업데이트 패키지를 배포합니다.
+
+[릴리즈 목록에서 다운로드](https://github.com/algocracy-ai/nosce-te-ipsum-releases/releases)
+
+첫 정식 릴리즈를 준비 중입니다. 공개된 릴리즈가 없으면 아직 설치 파일이 게시되지 않은 상태입니다.
+
+## 설치 파일 선택
+
+| 컴퓨터 | 파일 이름 끝부분 | 지원 OS |
+| --- | --- | --- |
+| Mac Apple Silicon (M 시리즈) | `_macos-arm64.dmg` | macOS 13 이상 |
+| Mac Intel | `_macos-x64.dmg` | macOS 13 이상 |
+| Windows x64 | `_windows-x64.exe` | Windows 10 1809 이상 및 WebView2 |
+
+Mac 정식 릴리즈는 Developer ID 코드 서명과 Apple 공증을 완료한 파일입니다. Windows 설치 파일의 Authenticode 코드 서명은 아직 적용하지 않았습니다. `.sig` 파일은 앱 업데이트 무결성 확인용이며 Windows 게시자 서명을 의미하지 않습니다.
+
+## 업데이트
+
+자동 업데이트를 지원하는 버전에서는 설정 → 앱 업데이트로 새 버전을 확인하고 다운로드할 수 있습니다. 설치 및 재시작은 사용자 확인 후 진행됩니다. 이 기능이 없는 이전 설치본은 처음 한 번 새 설치 파일로 수동 업데이트해야 합니다.
+
+`latest.json`은 앱이 사용하는 업데이트 목록입니다. `.app.tar.gz`와 `.sig`는 자동 업데이트용이며 직접 설치할 때는 DMG 또는 EXE를 선택하세요. `SHA256SUMS.txt`로 다운로드 무결성을 확인할 수 있습니다.
+
+## 저장소 범위
+
+이 저장소에는 설치 안내와 배포 산출물만 둡니다. 앱의 Git 소스 저장소, 개발 이력, 인증 키와 사용자 경력·인터뷰 데이터는 포함하지 않습니다. GitHub가 자동 표시하는 `Source code (zip/tar.gz)`는 이 안내 문서의 압축 파일이지 앱 소스가 아닙니다. 앱에 포함된 오픈소스 라이선스와 런타임 재빌드 안내는 설치 패키지 안에서 확인할 수 있습니다.
