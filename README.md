@@ -11,7 +11,7 @@
 
 완성된 자기소개서를 대신 써주는 서비스가 아니라, 다음 지원서와 면접에 활용할 **내 경험의 근거**를 모으는 작업 공간입니다.
 
-[**최신 버전 다운로드 →**](https://github.com/algocracy-ai/nosce-te-ipsum-releases/releases/latest) &nbsp; · &nbsp; [시작하기](#시작하기) &nbsp; · &nbsp; [연결과 데이터](#연결과-데이터) &nbsp; · &nbsp; [변경 기록](https://github.com/algocracy-ai/nosce-te-ipsum-releases/releases)
+[**최신 버전 다운로드 →**](https://github.com/algocracy-ai/nosce-te-ipsum-releases/releases/latest) &nbsp; · &nbsp; [시작하기](#시작하기) &nbsp; · &nbsp; [연결과 데이터](#연결과-데이터) &nbsp; · &nbsp; [버그 신고·기능 제안](https://github.com/algocracy-ai/nosce-te-ipsum-releases/issues/new/choose)
 
 ![자료와 메모리를 모으고, 맞춤 질문에 답한 뒤, 경력·인터뷰·리서치를 하나의 기록으로 내보내는 커리어 인터뷰의 사용 흐름](assets/overview.svg)
 
@@ -83,9 +83,13 @@
 
 **설정 → 앱 업데이트**에서 최신 버전을 확인할 수 있습니다. 업데이트 가능한 버전은 앱에서도 안내하며, 다운로드와 설치·재시작은 사용자의 선택으로 진행합니다. 자동 업데이트 기능이 없는 이전 설치본은 새 설치 파일로 한 번 수동 업데이트해 주세요.
 
-## 오류가 발생했다면
+## 버그 신고 · 기능 제안
 
-먼저 [최신 릴리즈의 변경 기록](https://github.com/algocracy-ai/nosce-te-ipsum-releases/releases/latest)과 AI 연결 상태를 확인해 주세요. 문제를 전달할 때는 **앱 버전 · 운영체제 · 연결 방식 · 오류 코드 · 재현 방법**을 함께 알려주시면 확인에 도움이 됩니다. 공개된 공간에는 원본 이력서, 대화 기록, 토큰, 인증 코드나 개인 키를 올리지 마세요.
+[**이슈 작성하기 →**](https://github.com/algocracy-ai/nosce-te-ipsum-releases/issues/new/choose)에서 **버그 신고** 또는 **기능 제안** 양식을 선택해 주세요. 일반 질문은 빈 이슈로 남길 수 있습니다. 같은 내용이 [기존 이슈](https://github.com/algocracy-ai/nosce-te-ipsum-releases/issues)에 있는지 먼저 확인해 주세요.
+
+오류가 발생했다면 [최신 릴리즈의 변경 기록](https://github.com/algocracy-ai/nosce-te-ipsum-releases/releases/latest)과 AI 연결 상태를 확인해 주세요. **앱 버전 · 운영체제 · 연결 방식 · 오류 코드 · 재현 방법**을 함께 알려주시면 확인에 도움이 됩니다.
+
+이슈는 공개됩니다. **원본 이력서, 대화·메모리 전문, 토큰, 인증 코드, 개인 키는 올리지 마세요.** 스크린샷에서도 개인정보와 비공개 업무 자료를 가려 주세요. 이 저장소는 사용자 피드백과 배포 안내를 위한 공간으로, PR은 받지 않습니다.
 
 ---
 

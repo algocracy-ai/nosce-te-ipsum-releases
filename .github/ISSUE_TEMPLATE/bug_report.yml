@@ -1,0 +1,70 @@
+name: 버그 신고
+description: 설치, 로그인, 분석, 인터뷰 작성 중 발생한 문제를 알려주세요.
+title: "[버그] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        불편을 알려주셔서 감사합니다. 같은 문제가 이미 등록되어 있는지 먼저 확인해 주세요.
+        **이 이슈는 누구나 볼 수 있습니다.** 원본 이력서, 대화·메모리 전문, 토큰, 인증 코드, 개인 키는 올리지 마세요. 스크린샷에서도 이름·이메일·회사 내부 정보를 가려 주세요.
+  - type: input
+    id: version
+    attributes:
+      label: 앱 버전
+      description: 설정의 앱 업데이트에서 확인할 수 있습니다. 실행이 안 되면 설치 파일명이나 '확인 불가'를 적어주세요.
+      placeholder: "예: 0.1.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 사용 중인 컴퓨터
+      options:
+        - Mac · Apple Silicon (M 시리즈)
+        - Mac · Intel
+        - Windows · x64
+        - 잘 모르겠어요
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: AI 연결 방식
+      options:
+        - GPT · 기존 Codex CLI
+        - GPT · 앱에서 ChatGPT 로그인 (Pi)
+        - Claude · Claude Code CLI
+        - 연결 전 / 관련 없음 / 잘 모르겠어요
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제가 발생했나요?
+      description: 기대했던 동작과 실제로 일어난 일을 알려주세요. 개인정보를 가린 스크린샷을 첨부해도 됩니다.
+      placeholder: "예: 회사 리서치를 시작했는데 오류 메시지가 표시됩니다."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 문제가 발생하기까지의 순서
+      description: 재현 방법을 모르겠다면 마지막으로 했던 작업만 적어주세요.
+      placeholder: |
+        1. 새 인터뷰를 엽니다.
+        2. 지원 정보를 입력합니다.
+        3. 리서치 시작을 누릅니다.
+    validations:
+      required: true
+  - type: input
+    id: error
+    attributes:
+      label: 오류 코드 또는 추가 환경 정보 (선택)
+      description: 앱에 표시된 오류 코드, OS 버전, 선택한 모델 등을 적어주세요. 전체 로그나 인증 정보는 붙여넣지 마세요.
+      placeholder: "예: ai_provider_error · macOS 15 · 사용한 모델명"
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 게시 전 확인
+      options:
+        - label: 본문과 첨부에 개인정보, 비공개 업무 자료, 인증 정보가 없는지 확인했습니다.
+          required: true

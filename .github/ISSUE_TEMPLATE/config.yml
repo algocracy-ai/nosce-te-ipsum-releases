@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 다운로드와 사용 안내
+    url: https://github.com/algocracy-ai/nosce-te-ipsum-releases#readme
+    about: 설치 파일 선택, AI 연결 방식, 업데이트 방법을 확인하세요.

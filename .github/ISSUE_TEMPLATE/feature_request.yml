@@ -1,0 +1,31 @@
+name: 기능 제안
+description: 더 편리한 커리어 정리를 위한 기능이나 개선 의견을 남겨주세요.
+title: "[제안] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        구체적인 해결책이 없어도 괜찮습니다. 어떤 상황에서 불편했는지 알려주세요.
+        **이 이슈는 공개됩니다.** 실제 경력 자료나 대화 내용 대신 개인정보를 뺀 예시를 사용해 주세요.
+  - type: textarea
+    id: need
+    attributes:
+      label: 어떤 상황에서 필요하신가요?
+      description: 하려던 작업과 지금의 불편함을 알려주세요.
+      placeholder: "예: 인터뷰가 많아져서 특정 회사의 기록을 찾기 어렵습니다."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 어떻게 바뀌면 좋을까요? (선택)
+      description: 원하는 동작이나 참고할 만한 예시가 있다면 적어주세요.
+      placeholder: "예: 회사별로 인터뷰를 묶어서 보고 싶습니다."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 게시 전 확인
+      options:
+        - label: 본문과 첨부에 개인정보, 비공개 업무 자료, 인증 정보가 없는지 확인했습니다.
+          required: true
