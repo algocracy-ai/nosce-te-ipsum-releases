@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">커리어 인터뷰 — 기록에서 근거로</title>
+  <desc id="desc">자료와 메모리를 모으고, 경험에 대한 질문에 답한 뒤, 경력과 인터뷰 및 리서치를 Markdown 또는 JSON 파일로 내보냅니다. 제품 사용 흐름을 설명하는 일러스트입니다.</desc>
+  <rect width="1200" height="520" rx="24" fill="#f5f4f0"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+    <text x="56" y="70" font-size="17" font-weight="600" letter-spacing="2" fill="#62645d">CAREER INTERVIEW / YOUR EVIDENCE WORKSPACE</text>
+    <text x="56" y="135" font-size="42" font-weight="700" fill="#242822">경험을 모으고. 맥락을 찾고. 내 말로 남기세요.</text>
+    <text x="56" y="177" font-size="23" fill="#62645d">처음부터 잘 쓰려 하지 않아도 괜찮습니다. 질문 하나에서 시작하세요.</text>
+    <path d="M160 265 H1040" stroke="#c8cbbf" stroke-width="2"/>
+    <g transform="translate(56 224)">
+      <rect width="336" height="232" rx="16" fill="#fff"/>
+      <circle cx="38" cy="40" r="17" fill="#e8ebdf"/>
+      <text x="38" y="46" text-anchor="middle" font-size="17" font-weight="700" fill="#454e36">1</text>
+      <text x="26" y="98" font-size="29" font-weight="700" fill="#242822">흩어진 기록 모으기</text>
+      <text x="26" y="138" font-size="22" fill="#62645d">이력서 · 경력 · 로컬 메모리</text>
+      <text x="26" y="190" font-size="20" fill="#454e36">내가 확인한 내용만 반영</text>
+    </g>
+    <g transform="translate(432 224)">
+      <rect width="336" height="232" rx="16" fill="#fff"/>
+      <circle cx="38" cy="40" r="17" fill="#e8ebdf"/>
+      <text x="38" y="46" text-anchor="middle" font-size="17" font-weight="700" fill="#454e36">2</text>
+      <text x="26" y="98" font-size="29" font-weight="700" fill="#242822">경험의 맥락 찾기</text>
+      <text x="26" y="138" font-size="22" fill="#62645d">회사 리서치 · 맞춤 질문</text>
+      <text x="26" y="190" font-size="20" fill="#454e36">내 판단과 실행을 구체적으로</text>
+    </g>
+    <g transform="translate(808 224)">
+      <rect width="336" height="232" rx="16" fill="#293027"/>
+      <circle cx="38" cy="40" r="17" fill="#4a5542"/>
+      <text x="38" y="46" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">3</text>
+      <text x="26" y="98" font-size="29" font-weight="700" fill="#fff">하나의 기록으로</text>
+      <text x="26" y="138" font-size="22" fill="#d5dccc">경력 + 인터뷰 + 리서치</text>
+      <text x="26" y="190" font-size="20" fill="#d5dccc">Markdown .md / JSON .json</text>
+    </g>
+  </g>
+</svg>
